@@ -335,18 +335,10 @@ const RESOURCES = {
 "assets/assets/fonts/Poppins-Bold.ttf": "08c20a487911694291bd8c5de41315ad",
 "assets/assets/fonts/Poppins-SemiBold.ttf": "6f1520d107205975713ba09df778f93f",
 "assets/assets/fonts/Poppins-Italic.ttf": "c1034239929f4651cc17d09ed3a28c69",
-"canvaskit/skwasm.js": "445e9e400085faead4493be2224d95aa",
-"canvaskit/skwasm.js.symbols": "ffe1c66a20052bda7053fa5edd307a01",
-"canvaskit/canvaskit.js.symbols": "ffc622082d0f757cbc3c728b91ab229b",
-"canvaskit/skwasm.wasm": "fce2f2b0b26f8a7ada5cc34bd5cc2ab2",
-"canvaskit/chromium/canvaskit.js.symbols": "b2f123d5a4425daa37ea97b4af9f4a6c",
-"canvaskit/chromium/canvaskit.js": "43787ac5098c648979c27c13c6f804c3",
-"canvaskit/chromium/canvaskit.wasm": "997a10db80a8f24077ba6b8f6fee252c",
 "canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
 "canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
 "canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
-"canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03"
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
 };
 
 // The application shell files that are downloaded before a service worker can
