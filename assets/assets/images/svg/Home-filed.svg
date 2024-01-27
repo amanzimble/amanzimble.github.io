@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Home-filed</title>
+    <g id="App-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-43.000000, -755.000000)">
+            <g id="Bottom_Navigation" transform="translate(0.000000, 740.000000)">
+                <g id="Group-13" transform="translate(36.000000, 14.000000)">
+                    <g id="home-2" transform="translate(6.000000, 0.000000)">
+                        <path d="M3.3275001,6.45337045 C2.50250013,7.09503711 1.83333333,8.46086974 1.83333333,9.49670307 L1.83333333,16.2892038 C1.83333333,18.4158704 3.56583343,20.1575365 5.69250003,20.1575365 L16.3075008,20.1575365 C18.4341674,20.1575365 20.1666667,18.4158706 20.1666667,16.2983707 L20.1666667,9.62503672 C20.1666667,8.51587001 19.4241674,7.09503733 18.5166674,6.46253733 L12.8516671,2.49337046 C11.5683338,1.59503711 9.50583377,1.6408704 8.26833375,2.60337035 L3.3275001,6.45337045 Z" id="Vector" fill="#131313" fill-rule="nonzero"></path>
+                        <line x1="11" y1="16.4908244" x2="11" y2="13.7408244" id="Vector" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></line>
+                        <path d="M22,0 L22,22 L0,22 L0,0 L22,0 Z" id="Vector" opacity="0"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
