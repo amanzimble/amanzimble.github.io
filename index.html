@@ -23,53 +23,56 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="puffguys">
+  <meta name="apple-mobile-web-app-title" content="githubhosting">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-
-
-  <script type="application/javascript" src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js" defer></script>
-
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCX6h3k0girfVPKK_JWPqBog7dBsg56uo&callback=initMap"></script>
-
-  <script src="https://apis.google.com/js/api.js" type="text/javascript"></script>
-
-
-  <title>puffguys</title>
+  <title>githubhosting</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = null;
+    const serviceWorkerVersion = "801314326";
   </script>
   <!-- This script adds the flutter initialization JS code -->
-<!--  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>-->
-
-<!--  <script src="main.dart.js" type="application/javascript"></script>-->
-
-<!--  <script>-->
-<!--      var firebaseConfig = {-->
-<!--        apiKey: "AIzaSyB_gb07rei8CG_tnvPR0iAtuUtnhBGbQNc",-->
-<!--        authDomain: "http://puffguys-cb72d.firebaseapp.com",-->
-<!--        databaseURL: "https://puffguys-cb72d-default-rtdb.firebaseio.com",-->
-<!--        projectId:  "puffguys-cb72d",-->
-<!--        storageBucket: "puffguys-cb72d.appspot.com",-->
-<!--        messagingSenderId: "698976600856",-->
-<!--        appId: "1:698976600856:web:cd0b419adde6cb3795d46d",-->
-<!--        measurementId: "G-3JM33GZ5K8"-->
-<!--      };-->
-
-<!--      // Initialize Firebase-->
-<!--      firebase.initializeApp(firebaseConfig);-->
-<!--    </script>-->
-
   <script src="flutter.js" defer></script>
-
 </head>
 <body>
+
+<!-- Capture PWA install prompt event -->
+ <script>
+    let deferredPrompt;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      deferredPrompt = e;
+    });
+
+    function promptInstall(){
+       deferredPrompt.prompt();
+    }
+
+    // Listen for app install event
+    window.addEventListener('appinstalled', () => {
+      deferredPrompt = null;
+      appInstalled();
+    });
+
+    // Track how PWA was launched (either from browser or as PWA)
+    function getLaunchMode() {
+      const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+      if(deferredPrompt) hasPrompt();
+      if (document.referrer.startsWith('android-app://')) {
+        appLaunchedAsTWA();
+      } else if (navigator.standalone || isStandalone) {
+        appLaunchedAsPWA();
+      } else {
+        window.appLaunchedInBrowser();
+      }
+    }
+ </script>
+
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
