@@ -131791,7 +131791,7 @@ A.aCM.prototype={
 $2(a,b){var s,r,q=null,p=u.J,o=$.vx()
 if(o.gHO())if(o.a)self.promptInstall()
 else A.J(p)
-if(A.eg(b)===!1)if(o.gHO())if(o.a)self.promptInstall()
+if(A.eg(b))if(o.gHO())if(o.a)self.promptInstall()
 else A.J(p)
 $.M().toString
 o=this.a
