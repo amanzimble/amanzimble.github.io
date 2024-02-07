@@ -7,7 +7,7 @@ const RESOURCES = {
 "index.html": "5bc48d565cddfbdf46b1049ec669a083",
 "/": "5bc48d565cddfbdf46b1049ec669a083",
 "firebase-messaging-sw.js": "32f827c54327e28d9cbeba4806e70a96",
-"main.dart.js": "77f09702f943f50181778f76e4c75fff",
+"main.dart.js": "891e0e90cfdcd66d3bdc0622a753ad2b",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "favicon.png": "7f9801cb8a190e5a039d83e562d89baf",
 "icons/favicon.ico": "d93f71529ec3e3ff12643fd7672fef9a",
