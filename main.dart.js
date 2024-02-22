@@ -113090,10 +113090,10 @@ F(a){var s,r,q,p=null
 $.a3g.toString
 s=A.boX(B.qE)
 A.eq(s,$.bew(),!0)
-s.HE(new A.aBe(A.dd(window.location.href,0,p),B.u3,B.dP,p))
+s.HE(new A.aBe(A.dd("https://amanzimble.github.io/#/",0,p),B.u3,B.dP,p))
 r=a.u(t.w).f
 $.bv().toString
-r=A.v(B.u,p,B.d,p,p,new A.aD(B.A,A.bfp(p,new A.bQ("assets/images/logo.png",p,p),p),p,p,p,p,p,B.q),p,p,p,p,p,p,p,r.a.a*0.5)
+r=A.v(p,p,B.d,p,p,new A.aD(B.A,A.bfp(p,new A.bQ("assets/images/logo.png",p,p),p),p,p,p,p,p,B.q),p,p,p,p,p,p,p,r.a.a*0.5)
 $.a3g.toString
 q=A.boZ(new A.a_a(s))
 A.eq(q,$.bex(),!0)
