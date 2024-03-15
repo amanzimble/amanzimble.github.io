@@ -8,6 +8,7 @@ const RESOURCES = {
 "/": "5bc48d565cddfbdf46b1049ec669a083",
 "firebase-messaging-sw.js": "c4cae52db024f7917cde63d98bc274ad",
 "main.dart.js": "3572770711bfa3ec5eb8891f9d9d62db",
+"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "favicon.png": "7f9801cb8a190e5a039d83e562d89baf",
 "icons/favicon.ico": "d93f71529ec3e3ff12643fd7672fef9a",
 "icons/Icon-192.png": "c56c7d562739bc4c28da829e81c797a0",
@@ -339,7 +340,11 @@ const RESOURCES = {
 "assets/assets/fonts/Poppins-Regular.ttf": "093ee89be9ede30383f39a899c485a82",
 "assets/assets/fonts/Poppins-Bold.ttf": "08c20a487911694291bd8c5de41315ad",
 "assets/assets/fonts/Poppins-SemiBold.ttf": "6f1520d107205975713ba09df778f93f",
-"assets/assets/fonts/Poppins-Italic.ttf": "c1034239929f4651cc17d09ed3a28c69"
+"assets/assets/fonts/Poppins-Italic.ttf": "c1034239929f4651cc17d09ed3a28c69",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
 };
 
 // The application shell files that are downloaded before a service worker can
