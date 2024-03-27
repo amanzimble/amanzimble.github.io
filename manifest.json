@@ -1,6 +1,6 @@
 {
-    "name": "PUFFGUYZ™ Driver",
-    "short_name": "PUFFGUYZ™ Driver",
+    "name": "google_map",
+    "short_name": "google_map",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
