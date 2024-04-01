@@ -127306,7 +127306,7 @@ s=j.d
 $.L().toString
 $.t().toString
 r=j.z.a
-r=A.y("Total",m,m,m,m,m,A.z(m,m,A.aw(204,r>>>16&255,r>>>8&255,r&255),m,m,m,m,m,l,m,m,10,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m)
+r=A.y("Total Amount",m,m,m,m,m,A.z(m,m,A.aw(204,r>>>16&255,r>>>8&255,r&255),m,m,m,m,m,l,m,m,10,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m)
 q=A.B(m,7,m)
 $.M().toString
 p=this.a
@@ -127929,7 +127929,7 @@ o=A.X(A.a([new A.aN(new A.u(8,0,0,0),c,g),A.ai(A.v(g,A.Y(A.a([n,A.X(A.a([k,A.av(
 c=p.p2
 c=c==null?g:c.z
 c=c==null?g:B.f.al(c,2)
-c=A.Y(A.a([A.y("$"+A.d(c==null?0:c),g,g,g,g,g,A.z(g,g,s.c,g,g,g,g,g,e,g,g,16,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g),A.y("*Total only includes the available products.",g,g,g,g,g,A.z(g,g,j,g,g,g,g,g,e,g,g,12,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g)],i),B.p,B.h,B.U,g)
+c=A.Y(A.a([A.y("$"+A.d(c==null?0:c),g,g,g,g,g,A.z(g,g,s.c,g,g,g,g,g,e,g,g,16,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g),A.y("*Total Amount only includes the available products.",g,g,g,g,g,A.z(g,g,j,g,g,g,g,g,e,g,g,12,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g)],i),B.p,B.h,B.U,g)
 n=s.b
 n=A.Y(A.a([o,new A.aN(new A.u(8,0,8,8),c,g),new A.c0(B.cR,g,g,A.v(g,A.X(A.a([new A.aN(new A.u(8,0,8,0),A.y("Select".toUpperCase(),g,g,g,g,g,A.z(g,g,n,g,g,g,g,g,d,g,g,16,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g),g),A.d4(B.KJ,n,18)],i),B.i,B.h,B.U,g),B.d,g,g,g,g,g,g,g,new A.u(20,20,8,10),g,g,g),g)],i),B.p,B.h,B.e,g)
 c=p.id
