@@ -65,6 +65,6 @@ self.addEventListener('notificationclick', function(event) {
     console.log('Notification clicked ', event);
     event.notification.close();
     event.waitUntil(
-        clients.openWindow('/?source=notification')
+        clients.openWindow('https://amanzimble.github.io')
     );
  });
