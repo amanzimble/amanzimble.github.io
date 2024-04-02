@@ -63,8 +63,9 @@ messaging.onBackgroundMessage(function(payload) {
 
 self.addEventListener('notificationclick', function(event) {
     console.log('Notification clicked ', event);
-   // event.notification.close();
+    alert("hhi there alert")
+    event.notification.close();
     event.waitUntil(
-        clients.openWindow('https://amanzimble.github.io/')
+        clients.openWindow('https://amanzimble.github.io/', '_self')
     );
  });
