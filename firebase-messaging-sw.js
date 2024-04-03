@@ -61,11 +61,18 @@ messaging.onBackgroundMessage(function(payload) {
     return self.registration.showNotification(notificationTitle, notificationOptions);
 });
 
-self.addEventListener('notificationclick', function(event) {
-    console.log('Notification clicked ', event);
-    alert("hhi there alert")
-    event.notification.close();
-    event.waitUntil(
-        clients.openWindow('https://amanzimble.github.io/', '_self')
-    );
- });
+function handleClick (event) {
+  event.notification.close();
+  // Open the url you set on notification.data
+  clients.openWindow('https://amanzimble.github.io/')
+}
+self.addEventListener('notificationclick', handleClick);
+
+//self.addEventListener('notificationclick', function(event) {
+//    console.log('Notification clicked ', event);
+//    alert("hhi there alert")
+//    event.notification.close();
+//    event.waitUntil(
+//        clients.openWindow('https://amanzimble.github.io/', '_self')
+//    );
+// });
