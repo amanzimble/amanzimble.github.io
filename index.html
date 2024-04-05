@@ -23,64 +23,28 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_web_fcm">
+  <meta name="apple-mobile-web-app-title" content="puff_guys_driver_flutter">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>flutter_web_fcm</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCX6h3k0girfVPKK_JWPqBog7dBsg56uo&callback=initMap"></script>
+  <script src="https://apis.google.com/js/api.js" type="text/javascript"></script>
+
+  <script type="application/javascript" src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js" defer></script>
+
+  <title>Puffguys Driver</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function () {
-      navigator.serviceWorker.register('/firebase-messaging-sw.js');
-    });
-  }
-</script>
-
-  <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1329184807";
+    const serviceWorkerVersion = "1796701716";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
-
-<!-- ...other html setup. -->
-<script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        navigator.serviceWorker.register("/firebase-messaging-sw.js");
-
-        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
-
-      });
-    }
-  </script>
-
-<!-- ...put the script at the bottom of the enclosing body tags. -->
-</body>
-
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-
-<!-- <script>-->
-<!--  &lt;!&ndash;Update with yours config&ndash;&gt;-->
-<!--   const firebaseConfig = {-->
-<!--  apiKey: "AIzaSyBLQFRBcbV5RVKraUu7OVH8ITGPU_cIJ4g",-->
-<!--  authDomain: "flutterwebfcm.firebaseapp.com",-->
-<!--  projectId: "flutterwebfcm",-->
-<!--  storageBucket: "flutterwebfcm.appspot.com",-->
-<!--  messagingSenderId: "948323628133",-->
-<!--  appId: "1:948323628133:web:4fd8c6cac020b70f6cc28c",-->
-<!--  measurementId: "G-EX8C45PXB7"-->
-<!--  };-->
-<!--  const app = initializeApp(firebaseConfig);-->
-<!--  const analytics = getAnalytics(app);-->
-<!--  </script>-->
-
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
