@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Payment Details</title>
+    <g id="App-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Settings-Copy" transform="translate(-17.000000, -330.000000)">
+            <g id="Group-2-Copy" transform="translate(0.000000, 312.000000)">
+                <g id="cards" transform="translate(16.000000, 16.000000)">
+                    <line x1="2" y1="12.6101074" x2="19" y2="12.6101074" id="Vector" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+                    <path d="M19,17.4300499 C18.97,20.2800498 18.1899707,21.0000496 15.2199707,21.0000496 L5.7800293,21.0000496 C2.76002932,21.0000496 2,20.2500501 2,17.27005 L2,10.2800484 C2,7.58004832 2.63000011,6.71004929 5,6.57004929 C5.23999999,6.56004929 5.5000293,6.55004883 5.7800293,6.55004883 L15.2199707,6.55004883 C18.2399707,6.55004883 19,7.30004835 19,10.2800484 L19,17.4300499 Z" id="Vector" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M22,13.7200012 C22,16.4200013 21.3699999,17.2900003 19,17.4300003 L19,10.2799988 C19,7.29999876 18.2399707,6.54999924 15.2199707,6.54999924 L5.7800293,6.54999924 C5.5000293,6.54999924 5.23999999,6.5599997 5,6.56999969 C5.03,3.71999979 5.81002927,3 8.7800293,3 L18.2199707,3 C21.2399707,3 22,3.74999952 22,6.72999954 L22,13.7200012 Z" id="Vector" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <line x1="5.25" y1="17.8100586" x2="6.9699707" y2="17.8100586" id="Vector" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+                    <line x1="9.10986328" y1="17.8100586" x2="12.5498657" y2="17.8100586" id="Vector" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+                    <path d="M24,0 L24,24 L0,24 L0,0 L24,0 Z" id="Vector" opacity="0"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
