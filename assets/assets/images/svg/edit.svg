@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>edit</title>
+    <g id="App-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="profile" transform="translate(-320.000000, -306.000000)">
+            <g id="edit-2" transform="translate(319.000000, 305.000000)">
+                <path d="M4.20831134,10.2416436 C3.949978,10.5166436 3.69997789,11.0583105 3.64997789,11.4333105 L3.34164466,14.1333095 C3.23331134,15.1083095 3.9333113,15.7749774 4.89997794,15.6083107 L7.5833114,15.149978 C7.95831139,15.0833113 8.48331089,14.8083105 8.74164422,14.5249772 L15.5833117,7.2833101 C16.766645,6.0333101 17.2999771,4.60831046 15.4583104,2.86664387 C13.6249771,1.14164392 12.2333112,1.74997707 11.0499779,2.99997707 L4.20831134,10.2416436 Z" id="Vector" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                <path d="M9.90834554,4.20837402 C10.2666789,6.50837402 12.1333454,8.26670704 14.450012,8.50004037" id="Vector" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                <line x1="2.5" y1="18.3333333" x2="17.5" y2="18.3333333" id="Vector" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0"></line>
+                <path d="M20,0 L20,20 L0,20 L0,0 L20,0 Z" id="Vector" opacity="0"></path>
+            </g>
+        </g>
+    </g>
+</svg>
