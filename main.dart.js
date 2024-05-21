@@ -132176,15 +132176,13 @@ else{if(o)q=k
 else{q=q.ce
 if(q==null)q=0}s=A.x("$"+A.d(q==null?"":q),k,k,k,k,k,A.y(k,k,s.p1,k,k,k,k,k,"Poppins-Medium",k,k,12,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k)}s=new A.aK(B.JC,A.W(A.a([r,new A.aK(new A.u(18,0,0,0),A.W(A.a([s,A.li(k,k,A.d0(B.tl,k,20),k,new A.aG_(l),B.a9,k,k)],m),B.i,B.h,B.e,k),k)],m),B.i,B.S,B.e,k),k)}else s=A.B(k,k,k)}else s=A.B(k,k,k)}else s=A.B(k,k,k)
 return A.Y(A.a([p,s],m),B.i,B.h,B.e,k)},
-aaB(a){var s=this.d
-if(s==null)s=null
-else{s=s.ch
-s=s===!0}A.bp(" sdhkjshvdf"+A.d(s)+" "+A.d(a))
+aaB(a){var s
+A.bp("adsnjhdgh"+A.d(a))
 if(!this.hF()){s=this.d
 if(s==null)s=null
 else{s=s.ch
 s=s===!0}if(s!==!0){$.I().toString
-s=J.bQ(a,"DELIVERED")!==0}else s=!1
+s=J.bQ(a,"DELIVERED")!==0&&B.b.E(a,"CANCELLED")!==0}else s=!1
 if(s)return!0
 else return!1}else{$.I().toString
 if(J.bQ(a,"UPCOMING")===0||B.b.E(a,"ACCEPTED")===0||B.b.E(a,"UNASSIGNED")===0)return!0
